@@ -57,10 +57,13 @@ export function sampleColorStops(stops: ColorStop[], progress: number) {
   };
 }
 
+// A warm, orange-anchored journey (Morris's fur, more or less) instead of a
+// full hue rotation: every stop stays in the orange/amber/rust family while
+// still shifting enough to feel alive as the page scrolls.
 export const scrollColorStops: ColorStop[] = [
-  { at: 0, bg: "#08090c", accent: "#5b6eff", accent2: "#2f3699" },
-  { at: 0.22, bg: "#0b0907", accent: "#ff9d5c", accent2: "#c2571f" },
-  { at: 0.48, bg: "#070c0b", accent: "#2dd4bf", accent2: "#0d7d70" },
-  { at: 0.72, bg: "#0b0810", accent: "#a78bfa", accent2: "#5b3ec9" },
-  { at: 1, bg: "#0c0709", accent: "#ff6b81", accent2: "#c23a52" },
+  { at: 0, bg: "#0c0906", accent: "#ff7a3d", accent2: "#c2481a" },
+  { at: 0.22, bg: "#0d0a06", accent: "#ffb24d", accent2: "#c9791a" },
+  { at: 0.48, bg: "#0b0705", accent: "#ff5f2e", accent2: "#a83814" },
+  { at: 0.72, bg: "#0c0805", accent: "#ffa64d", accent2: "#8a4a1f" },
+  { at: 1, bg: "#0d0705", accent: "#ff6a3d", accent2: "#d83f1a" },
 ];

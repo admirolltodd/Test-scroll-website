@@ -27,9 +27,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Iungere — Full-Stack Consulting & Engineering",
+  title: "Actonaughts — Full-Stack Consulting & Engineering",
   description:
-    "Iungere is a full-stack consulting studio led by Robert Slavens and Chello May Harrison, joining strategy and engineering into one accountable team.",
+    "Actonaughts is a full-stack consulting studio led by Robert Slavens and Chello May Harrison (and ship's cat Morris), joining strategy and engineering into one accountable team.",
 };
 
 export default function RootLayout({

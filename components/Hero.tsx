@@ -35,7 +35,7 @@ export default function Hero() {
     <section className="hero">
       <div className="hero__inner">
         <div ref={eyebrowRef} className="hero__eyebrow font-mono-label">
-          Iungere — Full-Stack Consulting Studio
+          Actonaughts — Full-Stack Consulting Studio
         </div>
 
         <h1 className="hero__headline">
@@ -50,14 +50,14 @@ export default function Hero() {
             as="span"
             className="hero__line hero__line--accent"
             mode="line"
-            text="joined into one team."
+            text="one crew, all hands on deck."
             start="top 95%"
             delay={0.12}
           />
         </h1>
 
         <p ref={subRef} className="hero__sub">
-          Founded by Robert Slavens and Chello May Harrison, Iungere designs and builds
+          Founded by Robert Slavens and Chello May Harrison, Actonaughts designs and builds
           full-stack products for companies who are done coordinating three vendors to
           ship one thing.
         </p>

@@ -5,12 +5,13 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__mark">
-          <span className="nav__mark-glyph">I</span>
-          <span className="nav__mark-word">Iungere</span>
+          <span className="nav__mark-glyph">A</span>
+          <span className="nav__mark-word">Actonaughts</span>
         </div>
 
         <p className="footer__note">
-          Full-stack consulting studio, founded by Robert Slavens &amp; Chello May Harrison.
+          Full-stack consulting studio, founded by Robert Slavens &amp; Chello May Harrison
+          (and ship&apos;s cat Morris).
         </p>
 
         <nav className="footer__links">
@@ -28,7 +29,7 @@ export default function Footer() {
           </Link>
         </nav>
 
-        <span className="footer__year font-mono-label">© {new Date().getFullYear()} Iungere</span>
+        <span className="footer__year font-mono-label">© {new Date().getFullYear()} Actonaughts</span>
       </div>
     </footer>
   );

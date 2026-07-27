@@ -25,6 +25,13 @@ export type ProcessStep = {
   description: string;
 };
 
+export type Mascot = {
+  name: string;
+  role: string;
+  bio: string;
+  image: GalleryImage;
+};
+
 export const founders: Founder[] = [
   {
     name: "Robert Slavens",
@@ -32,7 +39,7 @@ export const founders: Founder[] = [
     bio: "Fifteen years shipping resilient systems for companies that outgrew their own infrastructure. Robert leads technical strategy and full-stack architecture, translating tangled requirements into systems that hold up under real load.",
     image: {
       src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1400&q=80",
-      alt: "Robert Slavens, Co-Founder of Iungere",
+      alt: "Robert Slavens, Co-Founder of Actonaughts",
       caption: "Robert Slavens — Engineering & Architecture",
     },
   },
@@ -42,11 +49,22 @@ export const founders: Founder[] = [
     bio: "Chello has run consulting engagements from first workshop to production launch across a dozen industries. She leads client strategy and delivery, keeping ambitious builds honest, scoped, and on schedule.",
     image: {
       src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1400&q=80",
-      alt: "Chello May Harrison, Co-Founder of Iungere",
+      alt: "Chello May Harrison, Co-Founder of Actonaughts",
       caption: "Chello May Harrison — Strategy & Delivery",
     },
   },
 ];
+
+export const mascot: Mascot = {
+  name: "Morris",
+  role: "Ship's Cat — Chief Morale Officer",
+  bio: "Technically not on payroll. Sets the standup schedule anyway, mostly by sitting on the keyboard until one is called. Zero lines of code shipped, infinite morale shipped.",
+  image: {
+    src: "/mascot/morris-crew.jpg",
+    alt: "Morris, the Actonaughts ship's cat, dressed as a pirate captain",
+    caption: "Morris — Ship's Cat",
+  },
+};
 
 export const services: Service[] = [
   {

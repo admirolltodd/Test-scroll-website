@@ -27,8 +27,8 @@ export default function ContactSection() {
         <Reveal className="contact__info" stagger={0.08} start="top 85%">
           <div data-reveal-item className="contact__info-block">
             <span className="font-mono-label contact__label">General inquiries</span>
-            <a href="mailto:hello@iungere.co" className="contact__link" data-magnetic>
-              hello@iungere.co
+            <a href="mailto:hello@actonaughts.co" className="contact__link" data-magnetic>
+              hello@actonaughts.co
             </a>
           </div>
           <div data-reveal-item className="contact__info-block">

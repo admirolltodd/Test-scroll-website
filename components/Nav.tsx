@@ -24,8 +24,8 @@ export default function Nav() {
     <header ref={navRef} className="nav">
       <div className="nav__inner">
         <Link href="/" className="nav__mark" data-magnetic>
-          <span className="nav__mark-glyph">I</span>
-          <span className="nav__mark-word">Iungere</span>
+          <span className="nav__mark-glyph">A</span>
+          <span className="nav__mark-word">Actonaughts</span>
         </Link>
 
         <nav className="nav__links">
@@ -38,8 +38,8 @@ export default function Nav() {
           <Link href="/portfolio" data-magnetic>
             Work
           </Link>
-          <Link href="/#founders" data-magnetic>
-            Founders
+          <Link href="/#crew" data-magnetic>
+            Crew
           </Link>
         </nav>
 
