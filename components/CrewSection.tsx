@@ -1,7 +1,7 @@
+import Image from "next/image";
 import PinnedGallery from "./PinnedGallery";
 import SplitText from "./SplitText";
 import Reveal from "./Reveal";
-import MascotBadge from "./MascotBadge";
 import { founders, mascot } from "@/lib/sections";
 
 export default function CrewSection() {
@@ -28,8 +28,15 @@ export default function CrewSection() {
       <PinnedGallery images={images} overlays={overlays} className="founders__gallery" />
 
       <Reveal className="mascot-card" start="top 85%">
-        <div className="mascot-card__badge-wrap" data-reveal-item>
-          <MascotBadge size={220} className="mascot-card__badge" />
+        <div className="mascot-card__art-wrap" data-reveal-item>
+          <Image
+            src={mascot.image.src}
+            alt={mascot.image.alt}
+            width={1024}
+            height={829}
+            className="mascot-card__art"
+            sizes="(max-width: 640px) 90vw, 320px"
+          />
         </div>
         <div className="mascot-card__text" data-reveal-item>
           <span className="mascot-card__role font-mono-label">{mascot.role}</span>

@@ -60,8 +60,8 @@ export const mascot: Mascot = {
   role: "Ship's Cat — Chief Morale Officer",
   bio: "Technically not on payroll. Sets the standup schedule anyway, mostly by sitting on the keyboard until one is called. Zero lines of code shipped, infinite morale shipped.",
   image: {
-    src: "/mascot/morris-crew.jpg",
-    alt: "Morris, the Actonaughts ship's cat, dressed as a pirate captain",
+    src: "/mascot/captain-desk.png",
+    alt: "Morris, the Actonaughts ship's cat, illustrated as a pirate captain charting a map at his desk",
     caption: "Morris — Ship's Cat",
   },
 };
